@@ -1,0 +1,120 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('11.png');
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+nav{
+    width: 100;
+    height: 100px;
+    color: blacks;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: black;
+}
+.menu a{
+    text-decoration: none;
+    color:whitesmoke;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: #03254c;
+}
+.menu a:hover{
+    border: 1px solid #03254c;
+    background: transparent;
+}
+.registrer a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    background: indianred;
+}
+.registrer a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.h-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 650px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: whitesmoke;
+}
+.h-text span{
+    letter-spacing: 5px;
+}
+.h-text h1{
+    font-size: 3.5em;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h-text a{
+    text-decoration: none;
+    background: indianred;
+    color: whitesmoke;
+    letter-spacing: 5px;
+    padding: 10px 20px;
+    transition: 0.4s;
+}
+.h-text a:hover{
+    border: 1px solid indianred;
+    background: transparent;
+}
+.cu {
+    position:relative;
+    top: 50%;
+    right: 30px;
+    transform: translate(-0px);
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-end;
+    flex-direction:row;
+    height: 100px;
+  
+}
+.cu li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.cu li a{
+    display: inline-block;
+    filter: invert(1);
+    margin: 0 10px;
+} 
+.container {
+    text-align: center; /* Center-align the content within the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Optional: Add padding for spacing */
+}
+
+form {
+    display: inline-block; /* Make the form inline-block to center it within the container */
+    text-align: left; /* Reset text alignment for form fields */
+}
+
+/* Optional: Style the form elements */
+form label,
+form input,
+form button {
+    margin-bottom: 15px; /* Add margin between form elements */
+}
